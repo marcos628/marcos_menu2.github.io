@@ -1,0 +1,61 @@
+nav{
+    max-width: 900px;
+    margin:auto;
+    font-size: 20px;
+    margin-top: 50px;
+    border:#0025f7 10px solid;
+    background-color: rgb(68, 205, 240);
+    
+}
+body{
+    background-image: url(img/descarga.png);
+    background-size: cover;
+}
+.menu-horizontal{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+.menu-horizontal > li > a{
+    display: block;
+    padding: 15px 20px;
+    color: blue;
+    text-decoration: none;
+    border: solid;
+    background-color: rgb(5, 240, 208);
+}
+.menu-horizontal> li > a:hover{
+    color:brown
+}
+.menu-vertical{
+    position: absolute;
+    display: none;
+    list-style: none;
+    width: 200px;
+    background-color: rgb(0,0,0, .5);
+}
+.menu-horizontal > li:hover .menu-vertical{
+    display: block;
+    background-color: blue;
+}
+.menu-vertical > li:hover{
+    background-color: #000000;
+}
+
+.menu-horizontal > li > a:hover{
+    background-color: rgb(32, 144, 236);
+}
+.menu-vertical > li a{
+    display: block;
+    color: white;
+    padding: 15px 15px 15px 15px;
+    text-decoration: none;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+img{
+    height: 75px;
+    margin-right: 10px;
+}
